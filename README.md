@@ -5,7 +5,7 @@ FIFO queues, shareable across multiple producers and consumers.
 
 ### Background
 
-`rest_queue` originated out of some discussion on the StackOverflow Python chat, regarding
+`rest_queue` originated out of <a href="https://chat.stackoverflow.com/transcript/message/51898050#51898050">some discussion</a> on the StackOverflow Python chat, regarding
 sharing of a queue across multiple Python processes. The initial question was how to connect 
 to a queue that had already been created in a running Python program. Several alternatives were
 posed, but most were very low-level, or did not support access by new external Python processes.
